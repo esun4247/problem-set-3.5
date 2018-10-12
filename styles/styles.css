@@ -1,0 +1,24 @@
+th{
+  width: 10%;
+}
+table, th, td{
+  border:1px solid black;
+}
+.center{
+  text-align: center;
+}
+
+ul.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.navbar{
+  float: left;
+}
+
+li > a{
+  display:block;
+  padding: 100px;
+}
