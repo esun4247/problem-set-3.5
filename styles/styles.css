@@ -1,5 +1,5 @@
 *{
-  font-family: Arial;
+  font: "Times New Roman", serif;
 }
 
 body{
@@ -10,12 +10,34 @@ body{
 th{
   width: 10%;
 }
+
+img.rect{
+  border: 5px solid black;
+}
+
+img.rounded{
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+p{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+}
+
+h2{
+  text-decoration: underline;
+}
+
 table, th, td{
   border:1px solid black;
 }
 .center{
   text-align: center;
 }
+
 
 
 ul.navbar{
@@ -30,11 +52,11 @@ li.navbar{
 
 li.navbar > a{
   display: block;
-  padding-left: 110px;
-  padding-right: 110px;
+  padding-left: 115px;
+  padding-right: 115px;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 100%;
+  width: 50%;
   background-color: #2F3243;
   color: #EDECF5;
   margin-left: -10px;
@@ -52,7 +74,7 @@ li.navbar > a:active{
 }
 
 a:visited{
-  color:#7A5BD2;s
+  color:#7A5BD2;
 }
 
 footer a:hover{
